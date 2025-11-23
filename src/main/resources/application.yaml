@@ -1,0 +1,19 @@
+spring:
+  application:
+   name: java-tokenizer
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  security:
+    enabled: false
+
+springdoc:
+  version: 1.0
+  swagger-ui:
+    display-request-duration: true
+    groups-order: DESC
+    operationsSorter: method
+  use-root-path: true
